@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zkrallah.backupandrestore.MainActivity">
+    <item
+        android:id="@+id/back_up"
+        android:orderInCategory="100"
+        android:title="BACKUP"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/restore"
+        android:orderInCategory="100"
+        android:title="RESTORE"
+        app:showAsAction="never" />
+</menu>
